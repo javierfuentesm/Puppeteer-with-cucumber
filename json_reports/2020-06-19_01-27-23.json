@@ -1,0 +1,97 @@
+[
+  {
+    "description": "  As a user\n  I can login to application",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "features/login.feature",
+    "elements": [
+      {
+        "id": "login;user-can-login-to-application",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User can login to application",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/login_steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1144000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open login page",
+            "match": {
+              "location": "features/step_definitions/login_steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 311000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I fill the login form",
+            "match": {
+              "location": "features/step_definitions/login_steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on the submit button",
+            "match": {
+              "location": "features/step_definitions/login_steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 368000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I expect to see application content",
+            "match": {
+              "location": "features/step_definitions/login_steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5005000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/login_steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
