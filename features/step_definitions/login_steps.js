@@ -6,6 +6,7 @@ Before(async () => {
   page = await Page.build("Desktop");
   loginPage = await new LoginPage(page);
 });
+
 After(async () => {
   await page.close();
 });

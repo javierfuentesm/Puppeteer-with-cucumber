@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js -f json:cucumber_report.json",
+    "test": "TODAY=$(date \"+%Y-%m-%d_%H-%M-%S\"); cucumber-js -f json:./json_reports/$TODAY.json",
+    "table-to-csv": "TODAY=$(date \"+%Y-%m-%d_%H-%M-%S\"); node script.js --file exported-at-$TODAY.csv",
     "generate:report": "node report.js"
   },
   "keywords": [],
